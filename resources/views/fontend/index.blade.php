@@ -1,0 +1,6 @@
+@include('fontend.headerLink')
+@include('fontend.header')
+@include('fontend.navbar')
+@yield('contents')
+@include('fontend.footer')
+@include('fontend.footerScript')

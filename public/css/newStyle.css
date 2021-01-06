@@ -1,0 +1,68 @@
+.__ud_heading_line::after{
+    content: "";
+    height: 3px;
+    width: calc(100% - 92%);
+    background-color: #013fa3;
+    display:block;
+}
+.sign-here .sign-here-inner-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .2em;
+}
+.sign-here .sign-here-inner-home .btn-default:hover {
+    background-color: #013fa3!important;
+}
+.__find_great_school .top-college-wrap .top-college-inner-wrap .tc-lower-wrap .tc-faculty-section{
+    display:none;
+}
+.__find_great_school .top-college-wrap .top-college-inner-wrap .tc-lower-wrap .tc-rating-section {
+    padding: 10px 0px 8px 8px;
+}
+.__social_icon_cover .social-icon-wrap{
+  font-size:1.5em;
+}
+.__social_icon_cover .social-icon-wrap span{
+    margin-right:.5em;
+}
+@media only screen and (min-width:768px){
+    .sign-here .sign-here-inner-home{
+        display:grid;
+    }
+    .__home_signin,
+    .__home_signup{
+        display:none;
+    }
+}
+@media only screen and (max-width:767px){
+    .sign-here .sign-here-inner-home{
+        display:none;
+    }
+    .__home_signin,
+    .__home_signup{
+        display:block;
+    }
+    .sign-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+@media only screen and (max-width:768px){
+    .__social_icon_cover .social-icon-wrap {
+        font-size: 1em;
+        margin-top: 1em;
+    }
+}
+@media only screen and (max-width: 500px){
+.footer-item-wrap span:first-child {
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* .footer-item-wrap {
+    display: grid;
+    grid-template-rows: 1fr;
+    color: #ffffff;
+    font-size: .8rem;
+    margin-bottom: 10px;
+} */
+}

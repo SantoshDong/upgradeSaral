@@ -1,0 +1,116 @@
+$('.owl-carousel1').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('.owl-carousel2').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('.owl-carousel3').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$('.owl-carousel3').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$('.owl-carousel5').owlCarousel({
+    margin:20,
+    loop:false,
+    autoWidth:true,
+    items:4,
+    dots:false,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$('.owl-carousel6').owlCarousel({
+    margin:20,
+    loop:false,
+    items:4,
+    dots:false,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+$(document).ready(function () {
+    var date_input = $('input[name="date"]'); //our date input has the name "date"
+    var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+    date_input.datepicker({
+      format: 'mm/dd/yyyy',
+      container: container,
+      todayHighlight: true,
+      autoclose: true,
+    })
+  })
